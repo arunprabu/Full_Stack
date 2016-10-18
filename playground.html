@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>British Telecom - Advanced JS Training</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="src/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="src/css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        #sidebar-wrapper {
+            width: 280px;
+        }
+        .sidebar-nav{
+            width: 280px;
+        }
+        .sec-nav li a{
+            padding: 0px 30px !important; 
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#" id="day1">Advanced JS - Day 1</a>
+                </li>
+                <li>
+                    <a href="http://jsbin.com/xubego/23/edit?js,console,output" target="_blank">Objects</a>
+                </li>
+                <li>
+                    <a href="#">Functions</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="http://jsbin.com/xemodu/2/edit?js,console,output" target="_blank">Invoking function</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/fuyahi/2/edit?js,console,output" target="_blank">Variable Hoisting</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/xubego/27/edit?js,console,output" target="_blank">1. Named Functions</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/xubego/28/edit?js,console,output" target="_blank">2. Anonymous Functions</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/xubego/3/edit?js,console,output" target="_blank">3. IIFE</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/xubego/29/edit?js,console,output" target="_blank">4. Assigning Fn to variable</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/xubego/5/edit?js,console,output" target="_blank">5. Passing Fn's as args</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/xubego/6/edit?js,console,output" target="_blank">6. Nested Fn/Inner Fn</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/xubego/8/edit?html,js,console,output" target="_blank">7. Fn as Event Handlers</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/xubego/12/edit?js,console,output" target="_blank">Functions as Objects</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/xubego/20/edit?js,console,output" target="_blank">Arguments Object</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/xubego/15/edit?js,console,output" target="_blank">Recursion / loop</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/xubego/16/edit?js,console,output" target="_blank">Call String Function name</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Closures</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="http://jsbin.com/godere/2/edit?js,console,output" target="_blank" title="Function that has reference to private variables">Stage 1</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/godere/3/edit?js,console,output" target="_blank">Stage 2</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/godere/5/edit?js,console,output" target="_blank">Real world Example</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/godere/7/edit?js,console,output" target="_blank">Self Executing Closure</a></li>
+                        <li role="presentation" class="hide"><a href="http://jsbin.com/godere/9/edit?js,output" target="_blank">Interesting Closure</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Fn Prototypes</a>
+                     <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="http://jsbin.com/noxudut/7/edit?js,console,output" target="_blank">Stage 1</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/noxudut/8/edit?js,console,output" target="_blank">Stage 2</a></li>
+                     </ul>
+                </li>
+                <li>
+                    <a href="http://jsbin.com/zasuyu/5/edit?html,js,console,output">'this' keyword</a>
+                </li>
+                <li>
+                    <a href="#">ES6</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation"><a href="http://jsbin.com/hirokogajo/1/edit?js,output" target="_blank">Fat Arrow Functions</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/wesemufimo/1/edit?js,output" target="_blank">Fat Arrow Functions and 'this'</a></li>
+                        <li role="presentation"><a href="https://plnkr.co/edit/IOn27jXdkd6OTGy9iwom?p=preview" target="_blank">Classes</a></li>
+                        <li role="presentation"><a href="https://plnkr.co/edit/fZ2jcI?p=preview" target="_blank">Inheritance - Stage 1</a></li>
+                        <li role="presentation"><a href="https://plnkr.co/edit/mpsXKXtMA0kqaOpYXItv?p=preview" target="_blank">Inheritance - Stage 2</a></li>
+                        <li role="presentation"><a href="https://plnkr.co/edit/TfRevcgWeXZQnV0uXOjV?p=preview" target="_blank">Inheritance - Stage 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Events</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="http://jsbin.com/niqifo/2/edit?html,js,console,output" target="_blank">Events (attach & detach)</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/niqifo/14/edit?html,js,console,output" target="_blank">Bubbling</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/niqifo/13/edit?html,js,console,output" target="_blank">Cancelling</a></li>
+                     </ul>
+                </li>
+                <li>
+                    <a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/" title="Learn it here">Patterns</a>
+                     <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="http://jsbin.com/qamapu/5/edit?js,console,output" title="">Namespaces </a></li>
+                        <li role="presentation"><a href="#">Constructor Pattern</a></li>
+                        <li role="presentation"><a href="#">Prototype Pattern</a></li>
+                     </ul>
+                </li>
+                <li class="sidebar-brand">
+                    <a href="#">JS + Angular 1.x - Day 2</a>
+                </li>
+                <li>
+                    <a href="#">HTML DOM and BOM</a>
+                     <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="" target="_blank">DOM - dir(document)</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/pibigo/edit?js,console,output" target="_blank">BOM</a></li>
+                     </ul>
+                </li>
+                <li>
+                    <a href="http://jsbin.com/kitevu/6/edit?html,js,console,output">DOM Manipulation</a>
+                </li>
+                <li>
+                    <a href="http://jsbin.com/pugequ/edit?js,console,output" target="_blank">JSON</a>
+                </li>
+                <!--<li>
+                    <a href="#">Async Communication</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="E:\My_Training_Lectures\js_generic\ajax_by_js">AJAX thru JS</a></li>
+                        <li role="presentation"><a href="E:\My_Training_Lectures\js_generic\ajax_jquery">AJAX thru jQuery</a></li>
+                    </ul>
+                </li>-->
+                <!--<li>
+                    <a href="">Cross-domain communication</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="http://codepen.io/arun_vijayarengan/pen/WGpXzN?editors=1010" title="http://hayageek.com/cross-domain-ajax-request-jquery/">JSONP</a></li>
+                        <li role="presentation"><a href="http://codepen.io/arun_vijayarengan/pen/vXxWVQ?editors=1010">CORS</a></li>
+                    </ul>
+                </li>-->
+                <li>
+                    <a href="#">JS in HTML5 Environment</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="#">Storage API's</a></li>
+                        <li role="presentation"><a href="http://codepen.io/matt-west/full/lpExI">PostMessage API</a></li>
+                        <li role="presentation"><a href="http://blog.teamtreehouse.com/cross-domain-messaging-with-postmessage">PostMessage Article</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Javascript in Production</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="#" title="(render blocking, avoiding global variables, clear intervals, avoiding using window[], remove duplicate scripts )">Coding Practices </a></li>
+                        <li role="presentation"><a href="#">Minify JS</a></li>
+                        <li role="presentation"><a href="#">Minimize HTTP Req</a></li>
+                        <li role="presentation"><a href="#">Using CDN</a></li>
+                        <li role="presentation"><a href="#">Add Expires / cache ctrl header</a></li>
+                        <li role="presentation"><a href="#">GZip</a></li>
+                     </ul>
+                </li>
+                <li>
+                    <a href="https://docs.google.com/presentation/d/13yM8Fsd5-kioBfognLzJtMD7qnrgI55YT5weDTjr7LY/edit?usp=sharing">Single Page App (SPA)</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="https://docs.google.com/presentation/d/13yM8Fsd5-kioBfognLzJtMD7qnrgI55YT5weDTjr7LY/edit?usp=sharing">What is SPA?</a></li>
+                        <li role="presentation"><a href="#">Why SPA?</a></li>
+                        <li role="presentation"><a href="#" title="Mindmap">Frameworks/tools for SPA</a></li>
+                     </ul>
+                </li>
+                <li>
+                    <a href="#">MVC</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active" title="MP3 player example"><a href="#">What is MVC?</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Intro to NodeJS runtime</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="#">What is NodeJS?</a></li>
+                        <li role="presentation"><a href="#">How NodeJS works?</a></li>
+                        <li role="presentation"><a href="#">Why NodeJS?</a></li>
+                        <li role="presentation"><a href="#">Installing NodeJS</a></li>
+                        <li role="presentation"><a href="#">NPM and commands</a></li>
+                        <li role="presentation"><a href="#">Creating NodeJS Project</a></li>
+                        <li role="presentation"><a href="#">Understanding package.json</a></li>
+                        <li role="presentation"><a href="#">Running a server</a></li>
+                     </ul>
+                </li>
+                <li>
+                    <a href="#">Intro to MEAN Stack</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="#">What is MEAN?</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Intro to Angular 1.5.x</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="#">Intro to Angular 1.x</a></li>
+                        <li role="presentation"><a href="#">Intro to Angular 2</a></li>
+                        <li role="presentation"><a href="#">AngularJS 1 vs Angular 2</a></li>
+                        <li role="presentation"><a href="E:\Labs\AngularJS_1.x">Downloading and setting up</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/vewulet/6/edit?html,output">Hello World!</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/hidefep/1/edit?html,output">ng-init</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/qihoke/1/edit?html,output">Bootstraping vars ng-init</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/hidefep/2/edit?html,output">ng-model</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="http://jsbin.com/qihoke/4/edit?html,js,output">Modules, Controller, Model</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="file:///E:/Labs/AngularJS_1.x/3_controllers_modules/index.html">Controllers with Functions</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="http://jsbin.com/wuhivo/edit?html,js,output">Dependency Injection and $scope</a>
+                </li>
+                <li>
+                    <a href="#">Data Binding</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="file:///E:/Labs/AngularJS_1.x/2_angular_databinding/index.html">Binding and ng-repeat</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/hidefep/2/edit?html,output">2 way Binding w/ ng-model</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Directives</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="#">ng-click, ng-change, ng-submit</a></li>
+                        <li role="presentation"><a href="#">ng-disable, ng-show, ng-hide</a></li>
+                        <li role="presentation"><a href="">ng-class, ng-value, ng-options</a></li>
+                        <li role="presentation"><a href="#">ng-cut, ng-copy, ng-paste</a></li>
+                        <li role="presentation"><a href="https://docs.angularjs.org/api/ng/directive/ngIf">ng-if, ng-switch</a></li>
+                    </ul>
+                </li>
+                <li class="sidebar-brand">
+                    <a href="#">MEAN - Day 3</a>
+                </li>
+                <li>
+                    <a href="#">AngularJS Filters</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="file:///E:/Labs/AngularJS_1.x/5_filtering_data/index.html">Basic Filters</a></li>
+                        <li role="presentation" class="active"><a href="file:///E:/Labs/AngularJS_1.x/6_sort_filter/index.html">Sort Filter</a></li>
+                        <li role="presentation" class="active"><a href="file:///E:/Labs/AngularJS_1.x/7_search_filter/index.html">Search Filter</a></li>
+                        <li role="presentation" class="active"><a href="file:///E:/Labs/AngularJS_1.x/8_custom_filter/index.html">Custom Filters</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Custom Directives</a>
+                </li>
+                <li>
+                    <a href="#">Form Validation</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="file:///E:/Labs/AngularJS_1.x/form_validation_html/index.html">Form Validation in HTML5</a></li>
+                        <li role="presentation"><a href="file:///E:/Labs/AngularJS_1.x/form_validation_html/index.html">Form Validation in Angular - Incomplete</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="">Buil-in Services</a></li>
+                        <li role="presentation" class="active"><a href="">HTTP get service</a></li>
+                        <li role="presentation" class="active"><a href="">HTTP post service</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Routing and TemplateURL</a>
+                    <ul class="nav sec-nav">
+                        <li role="presentation" class="active"><a href="E:\Labs\AngularJS_1.x\routing_1_html\">Routing Initial setup</a></li>
+                        <li role="presentation"><a href="E:\Labs\AngularJS_1.x\routing_2_creating_templates\">Creating Templating and Routing</a></li>
+                        <li role="presentation"><a href="E:\Labs\AngularJS_1.x\routing_3_creating_partials\">Header, Footer Partials</a></li>
+                        <li role="presentation"><a href="E:\Labs\AngularJS_1.x\routing_3_creating_partials\">Removing Hash</a></li>
+                    </ul>
+                </li>
+
+                <li class="sidebar-brand">
+                    <a href="#">MEAN - Day 4</a>
+                </li>
+                <li>
+                    <a href="#">ES6 - Continued</a>
+                    <ul>
+                        <li role="presentation"><a href="http://jsbin.com/hirokogajo/1/edit?js,output" target="_blank">Fat Arrow Functions</a></li>
+                        <li role="presentation"><a href="http://jsbin.com/wesemufimo/1/edit?js,output" target="_blank">Fat Arrow Functions and 'this'</a></li>
+                        <li role="presentation"><a href="https://plnkr.co/edit/IOn27jXdkd6OTGy9iwom?p=preview" target="_blank">Classes</a></li>
+                        <li role="presentation"><a href="https://plnkr.co/edit/fZ2jcI?p=preview" target="_blank">Inheritance - Stage 1</a></li>
+                        <li role="presentation"><a href="https://plnkr.co/edit/mpsXKXtMA0kqaOpYXItv?p=preview" target="_blank">Inheritance - Stage 2</a></li>
+                        <li role="presentation"><a href="https://plnkr.co/edit/TfRevcgWeXZQnV0uXOjV?p=preview" target="_blank">Inheritance - Stage 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Node Js and NPM</a>
+                </li>
+                <li>
+                    <a href="#">Gulp</a>
+                </li>
+                <li>
+                    <a href="#">Setup</a>
+                </li>
+                <li>
+                    <a href="#">Node JS and Isomorphic Web</a>
+                </li>
+                <li>
+                    <a href="#">Express JS</a>
+                </li>
+                <li>
+                    <a href="#">MEAN</a>
+                </li>
+                <li>
+                    <a href="#">MERN</a>
+                </li>
+                <li>
+                    <a href="https://www.destroyallsoftware.com/talks/wat">Javascript Wat</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <h1>Client Side and Server Side JS (Adv JS + MEAN stack)
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="src/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="src/js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+</body>
+
+</html>
