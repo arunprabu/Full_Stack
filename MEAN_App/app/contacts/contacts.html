@@ -1,0 +1,10 @@
+<div>
+    <h1>Contacts</h1>
+    <table>
+        <tr ng-repeat="c in contacts">
+            <td>{{c.name}}</td>
+            <td>{{c.phone}}</td>
+        </tr>
+    </table>
+    <div ui-grid="{ data: contacts }" class="myGrid"></div>
+</div>
